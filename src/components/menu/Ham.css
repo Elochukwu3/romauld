@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.hamburger{
+cursor: pointer;
+}
+.line{
+    width: 25px;
+    height: 4px;
+    transition: 1s;
+    background-color: black;
+    margin: 2px;
+}
+.hamburger.open .line:nth-child(1){
+    transform: rotate(-45deg) translateY(7px) translateX(8px);
+    border-bottom-left-radius: 10px;
+}
+.hamburger.open .line:nth-child(2){
+    transform:  translateX(17px) rotate(90deg);
+    width: 31px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* opacity: 0; */
+}
+.hamburger.open .line:nth-child(3){
+    transform: rotate(45deg) translateY(-7px) translateX(8px);
+    border-bottom-right-radius: 10px;
+}
