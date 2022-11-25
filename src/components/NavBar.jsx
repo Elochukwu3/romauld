@@ -11,7 +11,7 @@ export default function NavBar() {
   }
   return (
     <div className='' >
-      <div className="flex items-center justify-between w-screen px-8 py-4 bg-[#101c30] relative z-30 " >
+      <div className="border-2 border-[#8892b0] flex items-center justify-between w-screen px-8 py-4 bg-[#101c30] relative z-30 " >
         <div>
           {" "}
           <Logo />

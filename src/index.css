@@ -19,11 +19,12 @@ body{
 .canvas-container{
    width: 100%;
 }
-h1{
-color: #e9b171;
 
-}
 
 .romauld{
    font-size: clamp(40px, 8vw, 80px);
+}
+.ph-icons{
+   transition: 1s ease-in-out;
+   transition-property: transform;
 }

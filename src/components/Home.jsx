@@ -48,21 +48,20 @@ export default function Home() {
 
     effect();
   });
-
   return (
     <div>
       <section className="realtive justify-between text-white h-auto">
         <div className=" absolute z-10 my-auto top-1/4 left-9">
-          <h1 className="romauld font-semibold m-0">
-         I am Romauld. 
+          <h1 className="romauld font-semibold m-0 first-letter:text-[#e9b171]">
+         I am Romauld.
           </h1>
             <span className="text-container text-3xl">A, {state.word}</span>
             <span className="blink"></span>
-          <h2 className="text-2xl font-semibold text-[#8892b0]">
+          <h2 className="text-2xl font-semibold text-[#8892b0] italic">
             I build interactive websites 
           </h2>
-          <h2 className="text-2xl font-semibold text-[#8892b0]">
-          that run across platforms & devices
+          <h2 className="text-2xl font-semibold text-[#8892b0] italic">
+          that run across platforms & devices.
           </h2>
         </div>
         <div className=" ">
