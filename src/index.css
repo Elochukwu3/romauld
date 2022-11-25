@@ -16,3 +16,8 @@
    transition:  950ms ease-in-out !important;
    
 }
+.canvas-container{
+   width: 100%;
+   height: 40vh;
+}
+

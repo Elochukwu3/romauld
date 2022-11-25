@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Menu({open}) {
   return (
-    <div>
-      <div className={open? "menu-cont flex z-10 inset-0 bg-[#101c30] w-full h-screen px-12 pt-16": "h-0 overflow-hidden menu-cont"}>
-        <ul className=" text-3xl uppercase text-white w-full ">
+    <div >
+      <div className={open? " flex items-center menu-cont fixed flex z-11  inset-0 bg-[#101c30] w-full h-screen px-12 pt-6": "h-0 overflow-hidden menu-cont"}>
+        <ul className=" text-3xl uppercase text-white w-full">
           <li
             className="py-2.5
             hover:animate-bounce
