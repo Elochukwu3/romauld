@@ -9,8 +9,8 @@
    border: 1px solid black;
    padding: 2px;
 }
-@media screen and (max-width: 500px) {
-   
+body{
+   background-color: #101c30;
 }
 .menu-cont{
    transition:  950ms ease-in-out !important;
@@ -18,6 +18,12 @@
 }
 .canvas-container{
    width: 100%;
-   height: 40vh;
+}
+h1{
+color: #e9b171;
+
 }
 
+.romauld{
+   font-size: clamp(40px, 8vw, 80px);
+}

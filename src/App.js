@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 
@@ -9,6 +10,8 @@ function App() {
     </nav>
     <main>
       <Home/>
+      <>
+      <About/></>
     </main>
     </div>
   );

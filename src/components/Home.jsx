@@ -1,16 +1,8 @@
 import { useEffect, useState } from "react";
 import Canvas, { MemoizedCanvas } from "./Canvas";
 
-const data = [
-  "Frontend Developer",
-  "WordPress Developer",
-  "Graphics Designer",
-];
+const data = ["Frontend Developer", "WordPress Developer", "Graphics Designer"];
 export default function Home() {
-
-
-  
-
   const [state, setState] = useState({
     word: "",
     index: 0,
@@ -48,7 +40,6 @@ export default function Home() {
       });
     }
   };
- 
 
   useEffect(() => {
     const effect = () => {
@@ -60,33 +51,24 @@ export default function Home() {
 
   return (
     <div>
-      <div className="">
-        {/* <div className="w-full h-full">
-          {
-            document.addEventListener("mousemove", function (e) {
-              let x = e.pageX
-              let y = e.pageX
-            })
-          }
-        </div> */}
-        <section className="flex bg-[#101c30] justify-between text-white">
-        <div className="m-auto">
-        <h1>
-          Hello! I am Romauld, a
-          <span className="text-container">{state.word}</span>
-          <span className="blink"></span>
-        </h1>
-        <h2>
-         I build interactive websites that run across
-         platforms & devices
-        </h2>
+      <section className="realtive justify-between text-white h-auto">
+        <div className=" absolute z-10 my-auto top-1/4 left-9">
+          <h1 className="romauld font-semibold m-0">
+         I am Romauld. 
+          </h1>
+            <span className="text-container text-3xl">A, {state.word}</span>
+            <span className="blink"></span>
+          <h2 className="text-2xl font-semibold text-[#8892b0]">
+            I build interactive websites 
+          </h2>
+          <h2 className="text-2xl font-semibold text-[#8892b0]">
+          that run across platforms & devices
+          </h2>
         </div>
-        <div>
-      <MemoizedCanvas/>
-      </div>
-        </section>
-      </div>
-      
+        <div className=" ">
+          <MemoizedCanvas />
+        </div>
+      </section>
     </div>
   );
 }
