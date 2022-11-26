@@ -13,7 +13,7 @@ export default function Footer() {
       <div>
         <div>
           <ul className="ph-icons flex  items-center justify-center gap-x-4 text-[#e9b171] ">
-            {/* <li className="py-2 hover:-translate-y-1 cursor-pointer border px-2 border-[#e9b171] rounded-full">
+            <li className="py-2 hover:-translate-y-1 cursor-pointer border px-2 border-[#e9b171] rounded-full">
               <GithubLogo size={24} />
             </li>
             <li className="py-2  hover:-translate-y-1 cursor-pointer border px-2 border-[#e9b171] rounded-full">
@@ -26,7 +26,7 @@ export default function Footer() {
               <Envelope size={24} />
             </li>
             <li className="py-2  hover:-translate-y-1 cursor-pointer border px-2 border-[#e9b171] rounded-full">
-              <FacebookLogo size={24} /> */}
+              <FacebookLogo size={24} />
             </li>
           </ul>
         </div>
