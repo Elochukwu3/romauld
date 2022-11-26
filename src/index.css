@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 .eye{
    border-radius:  75% 15%;
    transform: rotate(45deg);
@@ -11,13 +16,14 @@
 }
 body{
    background-color: #101c30;
+   overflow-x: hidden;
 }
 .menu-cont{
    transition:  950ms ease-in-out !important;
    
 }
-.canvas-container{
-   width: 100%;
+canvas{
+   padding-left: 100px !important;
 }
 
 
@@ -28,3 +34,4 @@ body{
    transition: 1s ease-in-out;
    transition-property: transform;
 }
+

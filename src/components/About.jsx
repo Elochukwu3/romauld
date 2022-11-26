@@ -18,7 +18,7 @@ export default function About() {
         <p className="flex item-center py-4">
           {" "}
           <CodeSimple size={32} color="#00ffff" />
-          <span className="text-2xl text-[#64ffda] px-3">About</span>
+          <span className="text-2xl text-[#64ffda] px-3">About Me</span>
           <Code size={32} color="#00ffff" />
         </p>
         <div className="text-lg max-sm:text-base">
@@ -57,20 +57,20 @@ export default function About() {
               className="w-100 z-10 scale-95 origin-center transition duration-150 ease-out hover:scale-100"
             />
           </div>
-          <ul className="ph-icons absolute right-10 flex flex-col items-center max-sm:hidden">
-            <li className="py-2 hover:-translate-y-1">
+          <ul className="ph-icons fixed bottom-1.5 right-10 flex flex-col items-center max-sm:hidden">
+            <li className="py-2 hover:-translate-y-1 cursor-pointer">
               <GithubLogo size={24} color="#00ffff" />
             </li>
-            <li className="py-2  hover:-translate-y-1">
+            <li className="py-2  hover:-translate-y-1 cursor-pointer">
               <LinkedinLogo size={24} color="#00ffff" />
             </li>
-            <li className="py-2  hover:-translate-y-1">
+            <li className="py-2  hover:-translate-y-1 cursor-pointer">
               <TwitterLogo size={24} color="#00ffff" />
             </li>
-            <li className="py-2  hover:-translate-y-1">
+            <li className="py-2  hover:-translate-y-1 cursor-pointer">
               <Envelope size={24} color="#00ffff" />
             </li>
-            <li className="py-2  hover:-translate-y-1">
+            <li className="py-2  hover:-translate-y-1 cursor-pointer">
               <FacebookLogo size={24} color="#00ffff" />
             </li>
             <li className="h-28 w-0.5 bg-[grey] py-2"></li>

@@ -27,7 +27,7 @@ export default function Menu({open}) {
           before:w-0 before:ease-in-out before:duration-1000
           before:bg-[#daa520b3] before:z-0 before:delay-150  before:hover:w-full z-1"
           >
-            Project
+            About
           </li>
           <li
             className="py-2.5 
@@ -39,7 +39,7 @@ export default function Menu({open}) {
           before:w-0 before:ease-in-out before:duration-1000
           before:bg-[#daa520b3] before:z-0 before:delay-150  before:hover:w-full z-1"
           >
-            About
+            Project
           </li>
           <li
             className="py-2.5 hover:animate-bounce

@@ -18,7 +18,7 @@ export const Canvas = () => {
       1000
     );
     const renderer = new THREE.WebGLRenderer();
-    renderer.setSize(window.innerWidth, 400);
+    renderer.setSize(window.innerWidth, window.innerHeight - 100);
    
     mountRef.current.appendChild(renderer.domElement);
     const texture = new THREE.TextureLoader();
@@ -82,7 +82,7 @@ animate()
     return () => mountRef.current.removeChild(renderer.domElement);
   }, []);
 
-  return <div ref={mountRef} className=''></div>;
+  return <div ref={mountRef} className='cursor-pointer'></div>;
 };
 
 export const MemoizedCanvas = React.memo(Canvas);
