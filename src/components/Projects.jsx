@@ -28,7 +28,7 @@ export default function Projects() {
             showMore ? <Mapp projectItems={projectMore}/> :""
           }
         <div className="w-full flex justify-center h-60 items-center">
-        <button onClick={()=>setShowMore(!showMore)} className='w-30 px-2 font-semibold border-2 border-[#64ffda] text-[#64ffda] rounded-md py-3 font-semibold text-lg bg-[#0e2236] border-2 border-[#e17148]'>
+        <button onClick={()=>setShowMore(!showMore)} className='w-30 px-2 font-semibold border-2 border-[#64ffda] text-[#64ffda] rounded-md py-3 font-semibold text-lg bg-[#0e2236]'>
           {
             showMore ? "Show Less" : "Show More"
           }

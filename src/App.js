@@ -1,6 +1,7 @@
 
 
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
@@ -23,9 +24,9 @@ function App() {
         <>
         <Projects/>
         </>
-       
+       <Contact/>
       </main>
-      <footer className="hidden max-sm:block max-sm:py-10">
+      <footer className="hidden max-sm:block max-sm:py-10 max-sm:flex-wrap">
         <Footer/>
       </footer>
     </div>

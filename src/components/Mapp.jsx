@@ -17,7 +17,7 @@ export default function Mapp({projectItems}) {
                         <Folder size={30} />
                       </div>
                       <div className="flex items-center">
-                        <p className="pr-2">
+                        <p className="pr-2 hover:text-[#64ffda]">
                           {" "}
                           <Link size={30} />
                         </p>

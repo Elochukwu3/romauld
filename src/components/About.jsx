@@ -9,6 +9,7 @@ import {
   FacebookLogo,
 } from "phosphor-react";
 import profilImg from "../texture-img/elo.png";
+import CV from'../assets/Cv.pdf'
 
 export default function About() {
   return (
