@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.hamburger{
+cursor: pointer;
+}
+.line{
+    width: 25px;
+    height: 2.78px;
+    transition: 950ms ease-in-out;
+    margin: 3px 2px;
+    
+}
+.hamburger.open .line:nth-child(1){
+    transform: rotate(220deg)  translateX(8px);
+    border-bottom-left-radius: 10px;
+    
+}
+.hamburger.open .line:nth-child(2){
+    transform:  translateX(-17px) rotate(90deg);
+    width: 31px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0;
+}
+.hamburger.open .line:nth-child(3){
+    transform: rotate(-220deg)  translateX(8px);
+    border-bottom-right-radius: 10px;
+}
