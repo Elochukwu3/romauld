@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Canvas, { MemoizedCanvas } from "./Canvas";
+import{ MemoizedCanvas } from "./Canvas";
 
 const data = ["Frontend Developer", "WordPress Developer", "Graphics Designer"];
 export default function Home() {

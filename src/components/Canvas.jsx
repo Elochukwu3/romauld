@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import lappy from '../texture-img/lappy.png'
 import reat from '../texture-img/react.png'
 import JS_IMG from '../texture-img/js.png'
 import HTML_IMG from '../texture-img/hm.jpeg'
@@ -78,8 +77,8 @@ animate()
 
     window.addEventListener("resize", onWindowResize, false);
 
-
-    return () => mountRef.current.removeChild(renderer.domElement);
+const cleanRef = mountRef.current;
+    return () => cleanRef.removeChild(renderer.domElement);
   }, []);
 
   return <div ref={mountRef} className='cursor-pointer'></div>;

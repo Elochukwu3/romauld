@@ -8,7 +8,6 @@ import {
   Envelope,
   FacebookLogo,
 } from "phosphor-react";
-import profilImgTwo from "../texture-img/elo-two.png";
 import profilImg from "../texture-img/elo.png";
 
 export default function About() {
