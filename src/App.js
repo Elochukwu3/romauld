@@ -1,12 +1,13 @@
 
-import { useState } from "react";
+
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 
 function App() {
-  const [showMore, setShowMore] = useState(false)
+  
   return (
     <div className="App">
       <nav>
@@ -21,20 +22,12 @@ function App() {
         </>
         <>
         <Projects/>
-        <div>
-          {
-            showMore ? <Projects/> :""
-          }
-        <div className="w-full flex justify-center">
-        <button onClick={()=>setShowMore(!showMore)} className='p-4 bg-[#0e2236] border-2 border-[#e17148]'>
-          {
-            showMore ? "showLess" : "showMore"
-          }
-         </button>
-        </div>
-        </div>
         </>
+       
       </main>
+      <footer className="hidden max-sm:block max-sm:py-10">
+        <Footer/>
+      </footer>
     </div>
   );
 }

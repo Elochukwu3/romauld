@@ -56,7 +56,7 @@ export default function About() {
               className="w-100 z-10 scale-95 origin-center transition duration-150 ease-out hover:scale-100"
             />
           </div>
-          <ul className="ph-icons fixed bottom-1.5 right-10 flex flex-col items-center max-sm:hidden">
+          <ul className="ph-icons fixed bottom-1.5 right-6 flex flex-col items-center max-sm:hidden">
             <li className="py-2 hover:-translate-y-1 cursor-pointer">
               <GithubLogo size={24} color="#00ffff" />
             </li>

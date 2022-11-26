@@ -19,7 +19,7 @@ export default function Logo() {
   return (
     <div>
         <div className='relative text-sky-400/100'>
-            <p className=''>
+            <p className=' border-4 border-[#e9b171] rounded-full max-sm:border-2'>
                 <img src="../image/rm.png" alt="" className='w-10' />
             </p>
             <span className=' eye bg-[white]  rounded-full  absolute  bottom-0 left-1/4 top-1.5 flex justify-center items-center min-h-fit'>
