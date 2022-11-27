@@ -1,5 +1,4 @@
-
-
+import { GitBranch, Sparkle } from "phosphor-react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -8,7 +7,6 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 
 function App() {
-  
   return (
     <div className="App">
       <nav>
@@ -22,12 +20,38 @@ function App() {
           <About />
         </>
         <>
-        <Projects/>
+          <Projects />
         </>
-       <Contact/>
+        <Contact />
       </main>
-      <footer className="hidden max-sm:block max-sm:py-10 max-sm:flex-wrap">
-        <Footer/>
+      <footer>
+        <div className="hidden max-sm:block max-sm:py-10 max-sm:flex-wrap">
+          <Footer />
+        </div>
+        <hr className="hidden border-b-1 border-[#e9b171] my-3 max-sm:block" />
+        <p className="text-center text-white font-mono italic leading-none text-xs hover:text-[#e9b171]">
+          Created and designed by Romauld{" "}
+        </p>
+        <p className="flex justify-center gap-x-10 text-[#fff] font-mono italic py-3">
+          <a
+            href="https://github.com/Elochukwu3/romauld"
+            target="_blank"
+            rel="noreferrer"
+            className="flex cursor-pointer hover:text-[#e9b171] items-center"
+          >
+            {" "}
+            <GitBranch size={20} />
+            <span className="text-xs">45</span>
+          </a>
+          <a
+            href="https://github.com/Elochukwu3/romauld"
+            target="_blank"
+            className="flex cursor-pointer hover:text-[#e9b171] items-center"
+            rel="noreferrer"
+          >
+            <Sparkle size={20} /> <span className="text-xs">1,000</span>
+          </a>
+        </p>
       </footer>
     </div>
   );

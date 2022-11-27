@@ -15,8 +15,8 @@ export default function Projects() {
           <Code size={32} color="#00ffff" />
         </p>
         <div className="flex justify-center h-20 max-sm:justify-end max-sm:pr-5">
-          <p className='text-white cursor-pointer after:content-[""] after:duration-1000 after:h-1 after:block after:w-0 after:bg-[#64ffda] hover:after:w-full'>
-            View Archive
+          <p className='text-white cursor-pointer py-2 italic font-mono after:content-[""] after:duration-1000 after:h-1 after:block after:w-0 after:bg-[#64ffda] hover:after:w-full'>
+            Some Things I Have Built
           </p>
         </div>
       </div>

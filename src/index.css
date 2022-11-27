@@ -8,6 +8,9 @@
    padding: 0;
    box-sizing: border-box;
 }
+html{
+   scrollbar-color: grey #101c30;
+}
 .eye{
    border-radius:  75% 15%;
    transform: rotate(45deg);

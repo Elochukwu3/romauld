@@ -1,9 +1,15 @@
 import React from "react";
 
-export default function Menu({open}) {
+export default function Menu({ open }) {
   return (
-    <div >
-      <div className={open? " flex items-center menu-cont fixed flex z-20  inset-0 bg-[#101c30] w-full h-screen px-12 pt-6": "h-0 overflow-hidden menu-cont"}>
+    <div>
+      <div
+        className={
+          open
+            ? " flex items-center menu-cont fixed flex z-20  inset-0 bg-[#101c30] w-full h-screen px-12 pt-6"
+            : "h-0 overflow-hidden menu-cont"
+        }
+      >
         <ul className=" text-3xl uppercase text-white w-full">
           <li
             className="py-2.5

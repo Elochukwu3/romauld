@@ -13,7 +13,7 @@ export default function Contact() {
                 username:"", email:"", message:""
             })
         }else{
-            
+
         } 
        
        
@@ -25,7 +25,7 @@ export default function Contact() {
         })
     }
   return (
-    <div>
+    <div className="mb-9">
       <div>
         <div>
           {" "}
