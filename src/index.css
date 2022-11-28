@@ -8,6 +8,9 @@
    padding: 0;
    box-sizing: border-box;
 }
+html{
+   scrollbar-color: grey #101c30;
+}
 .eye{
    border-radius:  75% 15%;
    transform: rotate(45deg);
@@ -18,8 +21,9 @@ body{
    background-color: #101c30;
    overflow-x: hidden;
 }
+
 .menu-cont{
-   transition:  950ms ease-in-out !important;
+   transition:  300ms ease-in-out !important;
    
 }
 canvas{
@@ -35,3 +39,18 @@ canvas{
    transition-property: transform;
 }
 
+.inputTag:focus ~ .floating-label,
+.inputTag:not(:focus):valid ~ .floating-label{
+  top: 8px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+  color: #e9b171;
+}
+
+ 
+.floating-label {
+  pointer-events: none;
+  transition: 0.2s ease all;
+}

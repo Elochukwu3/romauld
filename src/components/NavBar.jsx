@@ -10,39 +10,48 @@ export default function NavBar() {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
       windowHeight > 10
-      ? setNavSticky("fixed -top-5 left-0 z-50 pt-10") 
-      : setNavSticky("relative  z-30 ");
+        ? setNavSticky(
+            "fixed -top-5 left-0 z-50 pt-10 border-b  border-[#e9b171]"
+          )
+        : setNavSticky("relative  z-30 ");
     }
   };
 
   useEffect(() => {
     window.addEventListener("scroll", stickyScroll);
-console.log(navSticky);
+
     return () => {
       window.removeEventListener("scroll", stickyScroll);
     };
   });
 
-  
   const collapse = () => {
     setOpen(!open);
   };
   return (
     <div>
       <div
-        className={`border-b  border-[#8892b0] flex items-center justify-between w-screen px-8 py-4 bg-[#101c30] ${navSticky}`}
+        className={` flex items-center justify-between w-screen px-10 py-4 bg-[#101c30] ${navSticky}`}
       >
-        <div>
+        <div className="">
           {" "}
           <Logo />
         </div>
-        <div>
+        <div className="flex">
           {" "}
+          <button
+            onClick={() =>
+              (window.location = "mailto:oguajuromauld5@gmail.com")
+            }
+            className="border border-[#e9b171] mx-8 px-1 rounded-sm text-[#e9b171] hover:italic"
+          >
+            Contact Me
+          </button>
           <Hambuger open={open} close={collapse} />
         </div>
       </div>
       <>
-        <Menu open={open} />
+        <Menu open={open} close={collapse} />
       </>
     </div>
   );
