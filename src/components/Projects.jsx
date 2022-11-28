@@ -6,7 +6,7 @@ import { projectMore } from "../assets/json";
 export default function Projects() {
   const [showMore, setShowMore] = useState(false)
   return (
-    <div className="block py-5">
+    <div className="block py-5" id="project">
       <div className="block pt-20">
         <p className="flex item-center pt-4 pl-5">
           {" "}

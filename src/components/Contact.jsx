@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <div className="mb-9">
       <div>
-        <div>
+        <div id="contact">
           {" "}
           <p className="flex item-center py-4 pl-10">
             {" "}

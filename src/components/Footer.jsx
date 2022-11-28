@@ -18,7 +18,7 @@ export default function Footer() {
                 target={"_blank"}
                 rel="noreferrer"
               >
-                <GithubLogo size={24} color="#00ffff" />
+                <GithubLogo size={24} />
               </a>
             </li>
             <li className="py-2  hover:-translate-y-1 cursor-pointer border px-2 border-[#e9b171] rounded-full">
@@ -27,7 +27,7 @@ export default function Footer() {
                 target={"_blank"}
                 rel="noreferrer"
               >
-                <LinkedinLogo size={24} color="#00ffff" />
+                <LinkedinLogo size={24} />
               </a>
             </li>
             <li className="py-2  hover:-translate-y-1 cursor-pointer border px-2 border-[#e9b171] rounded-full">
@@ -36,7 +36,7 @@ export default function Footer() {
                 target={"_blank"}
                 rel="noreferrer"
               >
-                <TwitterLogo size={24} color="#00ffff" />
+                <TwitterLogo size={24} />
               </a>
             </li>
             <li className="py-2  hover:-translate-y-1 cursor-pointer border px-2 border-[#e9b171] rounded-full">
@@ -45,7 +45,7 @@ export default function Footer() {
                 target={"_blank"}
                 rel="noreferrer"
               >
-                <Envelope size={24} color="#00ffff" />
+                <Envelope size={24} />
               </a>
             </li>
             <li className="py-2  hover:-translate-y-1 cursor-pointer border px-2 border-[#e9b171] rounded-full">
@@ -54,7 +54,7 @@ export default function Footer() {
                 target={"_blank"}
                 rel="noreferrer"
               >
-                <WhatsappLogo size={24} color="#00ffff" />
+                <WhatsappLogo size={24}/>
               </a>
             </li>
           </ul>

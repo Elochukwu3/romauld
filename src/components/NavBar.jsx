@@ -31,9 +31,9 @@ export default function NavBar() {
   return (
     <div>
       <div
-        className={` flex items-center justify-between w-screen px-8 py-4 bg-[#101c30] ${navSticky}`}
+        className={` flex items-center justify-between w-screen px-10 py-4 bg-[#101c30] ${navSticky}`}
       >
-        <div>
+        <div className="">
           {" "}
           <Logo />
         </div>
@@ -51,7 +51,7 @@ export default function NavBar() {
         </div>
       </div>
       <>
-        <Menu open={open} />
+        <Menu open={open} close={collapse} />
       </>
     </div>
   );

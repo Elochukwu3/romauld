@@ -14,12 +14,12 @@ import Technogology from "./Technogology";
 
 export default function About() {
   return (
-    <div className="flex w-full px-10 justify-between items-center max-sm:block max-sm:px-5">
+    <div className="flex w-full px-10 justify-between items-center max-sm:block max-sm:px-5" >
       <div className="flex-1">
         <p className="flex item-center py-4">
           {" "}
           <CodeSimple size={32} color="#00ffff" />
-          <span className="text-2xl text-[#64ffda] px-3">About Me</span>
+          <span className="text-2xl text-[#64ffda] px-3" id="about">About Me</span>
           <Code size={32} color="#00ffff" />
         </p>
         <div className="text-lg max-sm:text-base">
@@ -83,7 +83,7 @@ export default function About() {
               className="w-100 z-10 scale-95 origin-center transition duration-150 ease-out hover:scale-100"
             />
           </div>
-          <ul className="ph-icons fixed bottom-1.5 right-6 flex flex-col items-center max-sm:hidden">
+          <ul className="ph-icons fixed bottom-1.5 right-2 flex flex-col items-center max-sm:hidden">
             <li className="py-2 hover:-translate-y-1 cursor-pointer">
               <a
                 href="https://github.com/Elochukwu3/"

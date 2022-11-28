@@ -1,25 +1,44 @@
 import { GitBranch, Sparkle } from "phosphor-react";
+import { useState, useEffect } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import Loader from "./components/Loader";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 
+
 function App() {
+const [loading, setLoading] =  useState(false)
+useEffect(() => {
+ setLoading(true)
+ setTimeout(() => {
+  setLoading(false)
+ }, 3500);
+}, [])
+
+if (loading) {
+  return <Loader/>
+}else{
+
+
   return (
-    <div className="App">
-      <nav>
+    <>
+     
+        <section className="w-screen">
+           <nav>
         <NavBar />
       </nav>
-      <main className="pl-16 max-md:pl-0 max-sm:pl-0">
+          <main className="pl-11 max-md:pl-0 max-sm:pl-0">
         <>
           <Home />
         </>
-        <>
+        <div>
           <About />
-        </>
+        </div>
         <>
+       
           <Projects />
         </>
         <Contact />
@@ -53,8 +72,13 @@ function App() {
           </a>
         </p>
       </footer>
-    </div>
+        </section>
+      
+     
+      
+    </>
   );
+}
 }
 
 export default App;

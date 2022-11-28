@@ -2,14 +2,14 @@ import React from 'react'
 import {Folder, GithubLogo, Link } from "phosphor-react";
 export default function Mapp({projectItems}) {
   return (
-    <section className="flex justify-center w-full">
+    <section className="flex w-full justify-center">
         <div className="grid grid-cols-3 w-11/12 gap-x-5 max-lg:grid-cols-2 max-sm:grid-cols-1 h-full gap-y-3.5">
           {projectItems.length &&
-            projectItems.map(({ name, details, tool, tool2, tool3, tool5 }) => {
+            projectItems.map(({ name, details, tool, tool2, tool3, tool5, pageLink, gitLink }) => {
               return (
                 <div
                   key={name}
-                  className="text-white shadow-md  shadow-[#0f172a] px-7 py-2 h-72 flex flex-col justify-between bg-[#112240] hover:bg-[#10293b] duration-300 hover:-translate-y-2"
+                  className="text-white overflow-y-hidden shadow-md  shadow-[#0f172a] px-7 py-2 h-72 flex flex-col justify-between bg-[#112240] hover:bg-[#10293b] duration-300 hover:-translate-y-2"
                 >
                   <div>
                     <nav className="flex justify-between py-4 pb-5">
@@ -19,10 +19,14 @@ export default function Mapp({projectItems}) {
                       <div className="flex items-center">
                         <p className="pr-2 hover:text-[#64ffda]">
                           {" "}
+                          <a href={pageLink} target={'_blank'} rel='noreferrer'>
                           <Link size={30} />
+                          </a>
                         </p>
                         <p className="pl-2 hover:text-[#64ffda]">
+                        <a href={gitLink} target={'_blank'} rel='noreferrer'>
                           <GithubLogo size={30} />
+                          </a>
                         </p>
                       </div>
                     </nav>

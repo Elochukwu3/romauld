@@ -23,7 +23,7 @@ body{
 }
 
 .menu-cont{
-   transition:  950ms ease-in-out !important;
+   transition:  300ms ease-in-out !important;
    
 }
 canvas{

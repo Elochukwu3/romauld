@@ -49,7 +49,7 @@ export default function Home() {
     effect();
   });
   return (
-    <div>
+    <div id="home">
       <section className="realtive justify-between text-white h-auto">
         <div className=" absolute z-10 my-auto top-1/4 left-24 max-sm:left-5">
           <p className="pl-2 text-[#e9b171] font-semibold">Hello!!,</p>
