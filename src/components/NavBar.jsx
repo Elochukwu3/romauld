@@ -31,7 +31,7 @@ export default function NavBar() {
   return (
     <div>
       <div
-        className={` flex items-center justify-between w-screen px-10 py-4 bg-[#101c30] ${navSticky}`}
+        className={` flex items-center justify-between w-screen px-10 py-4 bg-[#101c30] ${navSticky} max-sm:px-2 nav`}
       >
         <div className="">
           {" "}
@@ -43,7 +43,7 @@ export default function NavBar() {
             onClick={() =>
               (window.location = "mailto:oguajuromauld5@gmail.com")
             }
-            className="border border-[#e9b171] mx-8 px-1 rounded-sm text-[#e9b171] hover:italic"
+            className="border border-[#e9b171] mx-8 px-1 rounded-sm text-[#e9b171] hover:italic max-sm:mr-3"
           >
             Contact Me
           </button>

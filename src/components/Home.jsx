@@ -68,10 +68,10 @@ export default function Home() {
           <h1 className="romauld font-semibold m-0 first-letter:text-[#e9b171]">
             I am Romauld.
           </h1>
-          <span className="text-container text-3xl font-mono">
+          <span className="text-container text-3xl font-mono max-sm:text-2xl">
             A, {state.word}
           </span>
-          <span className="blink"></span>
+          
           <h2 className="text-2xl font-semibold text-[#8892b0] font-mono">
             I build interactive websites
           </h2>
