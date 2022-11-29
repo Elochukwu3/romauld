@@ -10,6 +10,7 @@
 }
 html{
    scrollbar-color: grey #101c30;
+   scroll-behavior: smooth;
 }
 .eye{
    border-radius:  75% 15%;
