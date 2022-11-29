@@ -79,18 +79,18 @@ export const projectMore =[
         tool2:"Sass",
         tool3:"CSS",
         tool5:"Html",
-        gitLink:"https://github.com/Elochukwu3/todo-app",
-        pageLink:"https://elochukwu3.github.io/Birthday-App/"
+        gitLink:"https://github.com/Elochukwu3/TodoList-App-React-Js",
+        pageLink:"https://euphonious-conkies-2073ea.netlify.app/"
     },
     {
         name:"Website Ab",
-        details:"website of multiplr pages",
+        details:"A Website of multiple pages",
         tool:"React",
         tool2:"Seamntic UI",
         tool3:"CSS",
         tool5:"Bootstrap",
-        gitLink:"https://github.com/Elochukwu3/capital-shop",
-        pageLink:"https://elochukwu3.github.io/drawing-app-js/"
+        gitLink:"https://github.com/Elochukwu3/capital-shop-react-js",
+        pageLink:"https://capital-shop-react-js.vercel.app/"
     }
     ,
     {
@@ -99,17 +99,17 @@ export const projectMore =[
         tool:"Vanilla JS",
         tool3:"CSS",
         tool5:"Html",
-        gitLink:"https://github.com/Elochukwu3/Wall-Clock",
-        pageLink:"https://elochukwu3.github.io/Wall-Clock/"
+        gitLink:"https://github.com/Elochukwu3/credit-card",
+        pageLink:"https://elochukwu3.github.io/credit-card/"
     },
     {
         name:"WordPad",
-        details:"Cloned wordpad appliction, creates text, edit, save and saves text.",
+        details:"Cloned wordpad appliction, creates text, edit, save and saves text.Desktop view Only",
         tool:"Html5",
         tool3:"CSS",
         tool5:"JavaScript",
-        gitLink:"https://github.com/Elochukwu3/wordpad",
-        pageLink:"https://nested-route-theta.vercel.app/"
+        gitLink:"https://github.com/Elochukwu3/WorddPad",
+        pageLink:"https://elochukwu3.github.io/WorddPad/"
     }
     ,
     {
@@ -118,7 +118,7 @@ export const projectMore =[
         tool:"Vanilla JS",
         tool3:"CSS",
         tool5:"Html5",
-        gitLink:"https://github.com/Elochukwu3/music-player",
-        pageLink:"https://app.netlify.com/sites/elochukwu/overview"
+        gitLink:"https://github.com/Elochukwu3/Music-Web-Application",
+        pageLink:"https://elochukwu3.github.io/Music-Web-Application/"
     }
 ]
