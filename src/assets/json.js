@@ -18,7 +18,7 @@ export const projectItems =[
         tool3:"Tailwind CSS",
         tool5:"Html5",
         gitLink:"https://github.com/Elochukwu3/romauld",
-        pageLink:"https://elochukwu3.github.io/Birthday-App/"
+        pageLink:"https://romauld.vercel.app/"
     },
     {
         name:"Canvas",
