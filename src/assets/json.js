@@ -104,7 +104,7 @@ export const projectMore =[
     },
     {
         name:"WordPad",
-        details:"Cloned wordpad appliction, creates text, edit, save and saves text.",
+        details:"Cloned wordpad appliction, creates text, edit, save and saves text.Desktop view Only",
         tool:"Html5",
         tool3:"CSS",
         tool5:"JavaScript",
