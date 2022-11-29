@@ -9,7 +9,7 @@ import {
   WhatsappLogo,
 } from "phosphor-react";
 import profilImg from "../texture-img/elo.png";
-import CV from "../assets/Cv.pdf";
+import CV from "../assets/curriculum-vitae.pdf";
 import Technogology from "./Technogology";
 
 export default function About() {
@@ -90,7 +90,7 @@ export default function About() {
                 target={"_blank"}
                 rel="noreferrer"
               >
-                <GithubLogo size={24} color="#00ffff" />
+                <GithubLogo size={24} color="#00ffff"/>
               </a>
             </li>
             <li className="py-2  hover:-translate-y-1 cursor-pointer">

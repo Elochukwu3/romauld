@@ -1,5 +1,6 @@
 import React from "react";
 import {HashLink as Link} from 'react-router-hash-link';
+import CV from "../../assets/curriculum-vitae.pdf";
 
 export default function Menu({ open, close }) {
   return (
@@ -68,9 +69,9 @@ export default function Menu({ open, close }) {
           before:w-0 before:ease-in-out before:duration-1000
           before:bg-[#daa520b3] before:z-0 before:delay-150  before:hover:w-full z-1"
           >
-             <Link to={'#experience'} >
-            Experience
-        </Link>
+             <a href={CV} target="_blank" rel="noreferrer" >
+          Resume
+        </a>
           </li>
           <li
           onClick= {close}
