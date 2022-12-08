@@ -1,15 +1,16 @@
 
+import { Square, Triangle } from 'phosphor-react';
 import  './Ham.css';
 
 function Hambuger({open, close}) {
    
     
   return (
-    <div className={open ? 'hamburger open': 'hamburger'} onClick={close}>
+    <div className={'text-[#e9b171]'} onClick={close}>
+       {
+        open ?  <Triangle size={24}/> : <Square size={24}/>
         
-        <div className=' line bg-[#e9b171]'></div>
-        <div className=' line bg-[#e9b171]'></div>
-        <div className=' line bg-[#e9b171]'></div>
+       }
     </div>
   )
 }

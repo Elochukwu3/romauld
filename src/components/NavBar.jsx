@@ -9,9 +9,9 @@ export default function NavBar() {
   const stickyScroll = () => {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
-      windowHeight > 10
+      windowHeight > 50
         ? setNavSticky(
-            "fixed -top-5 left-0 z-50 pt-10 border-b  border-[#e9b171]"
+            "fixed -top-5 left-0  pt-10 border-b  border-[#e9b171]"
           )
         : setNavSticky("relative  z-30 ");
     }
@@ -31,7 +31,7 @@ export default function NavBar() {
   return (
     <div>
       <div
-        className={` flex items-center justify-between w-screen px-10 py-4 bg-[#101c30] ${navSticky} max-sm:px-2 nav`}
+        className={` flex items-center z-50 justify-between w-screen px-10 py-4 bg-[#101c30] ${navSticky} max-sm:px-2 nav`}
       >
         <div className="">
           {" "}
