@@ -17,12 +17,11 @@ function App() {
     }, 3500);
   }, []);
 
-  if (loading) {
-    return <Loader />;
-  } else {
     return (
       <>
-        <section className="w-screen">
+       {
+        loading ? <Loader/> : (
+          <section className="w-screen">
           <nav>
             <NavBar />
           </nav>
@@ -68,9 +67,11 @@ function App() {
             </p>
           </footer>
         </section>
+        )
+       }
       </>
     );
-  }
+  
 }
 
 export default App;

@@ -1,6 +1,26 @@
 
 export const projectItems =[
     {
+        name:"ChatApp",
+        details:"Chat app is a single page web app that have some some features of WhatsApp, where you can sign up and send text/image messages",
+        tool:"React",
+        tool2:"SASS",
+        tool3:"CSS",
+        tool5:"Firebase",
+        gitLink:"https://github.com/Elochukwu3/firbase-chatapp",
+        pageLink:"https://firbase-chatapp.vercel.app"
+    },
+    {
+        name:"Artsy",
+        details:"Asty is a multi-page website that comprises of e-commerce features and payment integration",
+        tool:"Next",
+        tool2:"React",
+        tool3:"Tailwind CSS",
+        tool5:"",
+        gitLink:"https://github.com/Elochukwu3/artsy",
+        pageLink:"https://artsy-phi.vercel.app"
+    },
+    {
         name:"Instagram Clone",
         details:"Instagram clone, built with html, css and JavaScript. Showcasing various IG optomizations",
         tool:"Html",
